@@ -1,0 +1,35 @@
+{
+  "version": 2
+}
+```
+
+4. **Click "Commit changes"**
+
+---
+
+## 🚀 Now Deploy to Vercel!
+
+1. **Go to:** https://vercel.com/new
+
+2. **Click "Import Git Repository"**
+
+3. **Find your `podcast_repo`** and click **"Import"**
+
+4. **Click "Deploy"** (don't change any settings)
+
+5. **Wait 30-60 seconds**
+
+6. **You're LIVE!** 🎉
+
+---
+
+## 📍 What happens next?
+
+After deployment, Vercel will give you a URL like:
+```
+https://podcast-repo-xxxxx.vercel.app
+```
+
+**Test it by visiting:**
+```
+https://YOUR-URL.vercel.app/api?action=search&query=tech&limit=5
