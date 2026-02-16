@@ -1,5 +1,3 @@
-const fetch = require('node-fetch');
-
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
@@ -53,15 +51,3 @@ export default async function handler(req, res) {
       message: 'Podcast Aggregator API - Usage examples:',
       examples: {
         search: '/api?action=search&query=crime&limit=10',
-        podcast: '/api?action=podcast&id=1380008439',
-        episodes: '/api?action=episodes&id=1380008439'
-      }
-    });
-    
-  } catch (error) {
-    return res.status(500).json({ 
-      success: false,
-      error: error.message 
-    });
-  }
-}
